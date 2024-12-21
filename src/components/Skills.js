@@ -42,8 +42,8 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                        <p>
-  I specialize in building dynamic and responsive web applications using modern technologies.<br />
-  My expertise spans React, Express, MongoDB, MySQL, and AWS, with a focus on delivering high-quality solutions.
+  I specialize in building dynamic and responsive web applications using modern technologies.
+  
 </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
