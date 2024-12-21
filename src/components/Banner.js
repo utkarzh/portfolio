@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('Ja');
   const [typingSpeed, setTypingSpeed] = useState(200); // Faster typing speed
-  const roles = ["JavaScript Developer"];
+  const roles = ["JavaScript Developer", "Tech Geek 🧑‍💻", 'Software Engineer'];
   const typingPause = 200; // Shorter pause before deleting
 
   useEffect(() => {
@@ -48,15 +48,15 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Hello, I'm Utkarsh!</span>
+                  <span className="tagline">Hey, I'm Utkarsh</span>
                   <h1>
-                    <span style={{color: 'white'}}>I am a </span>
-                    <span style={{color: 'purple'}}>Javascript Developer</span>
+                    <span style={{color: 'white'}}>I am a </span> <br/>
+                    <span style={{color: 'purple'}}>{text}</span>
                   </h1>
-                  <p>
+                  <p style={{marginBottom:28}}>
                     As a Software Engineer with a year of experience in React, I specialize in both frontend and backend technologies. My experience spans multiple projects, including leading the frontend development of one.
                   </p>
-                  <a style={{color:"white",fontSize:24,textDecoration:"none"}}href="https://www.snapit.tech/r/oTe71CxS" target="_blank">
+                  <a style={{color:"white",fontSize:24,textDecoration:"none",marginTop:100}}href="https://www.snapit.tech/r/oTe71CxS" target="_blank">
                     View My Resume <ArrowRightCircle size={25} />
                   </a>
                 </div>
