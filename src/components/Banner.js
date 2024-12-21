@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import home from '../assets/img/home-image.png'
+import home from '../assets/img/home-image.png';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [typingSpeed, setTypingSpeed] = useState(200); // Faster typing speed
-  const roles = ["Web Developer!💻", "Tech Geek!🤓💡", "Bad Chess Player!😅"];
+  const roles = ["JavaScript Developer", "Tech Geek", "Software Engineer"];
   const typingPause = 200; // Shorter pause before deleting
 
   useEffect(() => {
@@ -49,12 +49,12 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Hello, I'm Utkarsh!</span>
-                  <h1 style={{color:'white'}}>
-                    {`I'm a Javascript Developer!`}{""}
-
+                  <h1>
+                    <span style={{color: 'white'}}>I am a </span>
+                    <span style={{color: 'purple'}}>{text}</span>
                   </h1>
                   <p>
-                  As a Software Engineer with a year of experience specializing in React, I possess a strong command of both frontend and backend technologies. My experience spans multiple projects, including leading the frontend development of one. I approach every challenge with a strategic mindset, focusing on delivering high-quality solutions. 🚀💻✨
+                    As a Software Engineer with a year of experience in React, I specialize in both frontend and backend technologies. My experience spans multiple projects, including leading the frontend development of one.🚀💻✨
                   </p>
                   <a style={{color:"white",fontSize:24,textDecoration:"none"}}href="https://www.snapit.tech/r/oTe71CxS" target="_blank">
                     View My Resume <ArrowRightCircle size={25} />
