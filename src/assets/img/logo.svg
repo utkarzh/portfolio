@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <!-- UTKARSH - Main text -->
+  <path d="M16 10v40c0 8 6 14 14 14s14-6 14-14V10h10v40c0 14-11 26-24 26S6 64 6 50V10h10z" fill="white"/>
+  
+  <!-- Letter T -->
+  <path d="M60 10h36v10H84v40h-12V20H60V10z" fill="white"/>
+  
+  <!-- Letter K -->
+  <path d="M104 10h12v24l20-24h14l-22 26 24 38h-14l-16-28-6 6v22h-12V10z" fill="white"/>
+  
+  <!-- Letter A -->
+  <path d="M170 10l16 64h-12l-4-12h-16l-4 12h-12l16-64h16zm-12 40h12l-6-26-6 26z" fill="white"/>
+  
+  <!-- Letter R -->
+  <path d="M200 10h22c10 0 16 8 16 18 0 8-4 14-10 16l12 30h-14l-10-28h-6v28h-10V10zm10 24h12c4 0 6-2 6-6s-2-6-6-6h-12v12z" fill="white"/>
+  
+  <!-- Letter S -->
+  <path d="M254 22c-4-4-8-6-12-6-4 0-8 2-8 6 0 10 24 4 24 24 0 12-8 18-18 18-8 0-14-2-18-8l6-10c4 4 8 6 12 6 4 0 8-2 8-6 0-10-24-4-24-24 0-12 8-18 18-18 6 0 12 2 16 6l-4 12z" fill="white"/>
+  
+  <!-- Letter H -->
+  <path d="M284 10h10v64h-10V48h-16v26h-10V10h10v26h16V10z" fill="white"/>
+  
+  <!-- 'S PORTFOLIO - Fixed text -->
+  <text x="150" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white"> PORTFOLIO</text>
+</svg>
